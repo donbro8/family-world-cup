@@ -2,3 +2,5 @@
 
 # Local-only design reference (kept off the public repo)
 image.png
+
+.DS_Store*
