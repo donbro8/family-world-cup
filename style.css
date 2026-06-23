@@ -327,6 +327,60 @@ h1 .accent { color: var(--gold); }
 .site-footer { text-align: center; padding: 24px; color: var(--text-muted); position: relative; z-index: 1; }
 .site-footer em { color: var(--gold); font-style: normal; font-weight: 600; }
 
+/* ---------- Participant profile modal ---------- */
+.modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 20px; }
+.modal[hidden] { display: none; }
+.modal-backdrop {
+  position: absolute; inset: 0;
+  background: oklch(0% 0 0 / 0.6);
+  backdrop-filter: blur(4px);
+  opacity: 0; transition: opacity 0.2s ease;
+}
+.modal.open .modal-backdrop { opacity: 1; }
+.modal-card {
+  position: relative;
+  width: min(420px, 100%);
+  background: linear-gradient(160deg, var(--bg-card-2), var(--bg-card));
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 24px 24px;
+  text-align: center;
+  transform: translateY(12px) scale(0.98);
+  opacity: 0;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+.modal.open .modal-card { transform: none; opacity: 1; }
+.modal-close {
+  position: absolute; top: 10px; right: 12px;
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--bg-card-2);
+  color: var(--text-muted); font-size: 1.4rem; line-height: 1; cursor: pointer;
+}
+.modal-close:hover { color: var(--text); border-color: var(--border-strong); }
+
+.profile-photo {
+  margin: 0 auto 14px;
+  border-width: 3px;
+  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.4);
+}
+.profile-rank { font-size: 1.8rem; line-height: 1; margin-bottom: 4px; }
+.profile-name { font-family: "Outfit", sans-serif; font-weight: 800; font-size: 1.5rem; }
+.profile-total { font-family: "Outfit", sans-serif; font-weight: 800; color: var(--gold); font-size: 1.1rem; margin-top: 6px; }
+.profile-total span { font-size: 1.8rem; }
+.profile-breakdown { font-size: 0.78rem; color: var(--text-muted); margin-top: 4px; }
+
+.profile-teams { display: grid; gap: 8px; margin-top: 18px; text-align: left; }
+.profile-team {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
+  padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--bg-card-2);
+}
+.profile-team .pt-flag { font-size: 1.6rem; grid-row: 1 / 3; align-self: center; }
+.profile-team .pt-name { grid-column: 2; grid-row: 1; font-weight: 700; align-self: end; }
+.profile-team .pt-stage { grid-column: 2; grid-row: 2; font-size: 0.72rem; color: var(--text-faint); align-self: start; }
+.profile-team .pt-pts { grid-column: 3; grid-row: 1 / 3; align-self: center; font-family: "Outfit", sans-serif; font-weight: 800; color: var(--gold); }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
   .leader-ticker { align-items: flex-start; }

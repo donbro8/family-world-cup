@@ -116,7 +116,10 @@ function computeStandings() {
 function makeAvatar(participant, key, { leader = false, size } = {}) {
   const el = document.createElement("div");
   el.className = "avatar" + (leader ? " is-leader" : "");
-  if (size) { el.style.width = el.style.height = size + "px"; }
+  if (size) {
+    el.style.width = el.style.height = size + "px";
+    el.style.fontSize = Math.round(size * 0.42) + "px";
+  }
   const initial = (participant.name || "?").trim().charAt(0).toUpperCase();
   el.textContent = initial;
   el.style.background = colorFor(key);
@@ -147,10 +150,13 @@ function ownerOf(teamName) {
   return null;
 }
 
+let standingsByKey = {};
+
 // ---- Render ----
 function render() {
   $("loadState").hidden = true;
   const standings = computeStandings();
+  standingsByKey = Object.fromEntries(standings.map((r) => [r.key, r]));
   renderLastUpdated();
   renderTicker(standings);
   renderNextMatch();
@@ -208,7 +214,7 @@ function renderLeaderboard(standings) {
       `<div class="lb-breakdown">${p.wins}W · ${p.draws}D · ${p.goals}⚽ · ${p.progression} prog</div>`;
 
     li.append(rank, avatar, main, score);
-    li.addEventListener("click", () => toggleActive(p.key));
+    li.addEventListener("click", () => openParticipant(p.key));
     ol.appendChild(li);
   });
 }
@@ -363,13 +369,70 @@ function renderPrizes() {
   });
 }
 
-// ---- Interaction: highlight a participant's teams everywhere ----
-function toggleActive(key) {
-  activeParticipant = activeParticipant === key ? null : key;
-  document.querySelectorAll(".lb-row").forEach((el) => {
-    el.classList.toggle("is-active", el.dataset.participant === activeParticipant);
-  });
+// ---- Interaction: open a participant's profile (large photo + stats) ----
+const MEDALS = { 1: "🥇", 2: "🥈", 3: "🥉" };
+
+function openParticipant(key) {
+  const p = standingsByKey[key];
+  if (!p) return;
+
+  // highlight their teams in the lists behind the modal
+  activeParticipant = key;
+  document.querySelectorAll(".lb-row").forEach((el) =>
+    el.classList.toggle("is-active", el.dataset.participant === key));
   applyActiveHighlight();
+
+  const content = $("modalContent");
+  content.innerHTML = "";
+
+  const photo = makeAvatar(p, key, { leader: p.rank === 1, size: 132 });
+  photo.classList.add("profile-photo");
+
+  const head = document.createElement("div");
+  head.className = "profile-head";
+  head.innerHTML =
+    `<div class="profile-rank">${MEDALS[p.rank] || "#" + p.rank}</div>` +
+    `<h3 id="modalName" class="profile-name">${p.name}</h3>` +
+    `<div class="profile-total"><span>${p.total}</span> pts</div>` +
+    `<div class="profile-breakdown">${p.wins}W · ${p.draws}D · ${p.goals} goals · ${p.progression} progression</div>`;
+
+  const teams = document.createElement("div");
+  teams.className = "profile-teams";
+  p.teamStats.forEach((ts) => {
+    const pts = ts.matchPoints + ts.progression;
+    const row = document.createElement("div");
+    row.className = "profile-team";
+    row.innerHTML =
+      `<span class="pt-flag">${ts.flag || "🏳️"}</span>` +
+      `<span class="pt-name">${ts.name}</span>` +
+      `<span class="pt-stage">${STAGE_LABEL[ts.stage] || ""}</span>` +
+      `<span class="pt-pts">${pts} pts</span>`;
+    teams.appendChild(row);
+  });
+
+  content.append(photo, head, teams);
+  const modal = $("personModal");
+  modal.hidden = false;
+  requestAnimationFrame(() => modal.classList.add("open"));
+}
+
+function closeModal() {
+  const modal = $("personModal");
+  modal.classList.remove("open");
+  modal.hidden = true;
+  activeParticipant = null;
+  document.querySelectorAll(".lb-row").forEach((el) => el.classList.remove("is-active"));
+  applyActiveHighlight();
+}
+
+// wire up close interactions (backdrop click, × button, Esc)
+if (typeof window !== "undefined") {
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("[data-close]")) closeModal();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("personModal").hidden) closeModal();
+  });
 }
 
 function applyActiveHighlight() {
