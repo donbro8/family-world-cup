@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family World Cup Challenge</title>
+  <meta name="description" content="Live leaderboard for our family FIFA World Cup sweepstake — pick, cheer, track, win." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+  <div class="pitch-lines" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="title-block">
+        <span class="trophy" aria-hidden="true">🏆</span>
+        <div>
+          <h1>Family World Cup <span class="accent">Challenge</span></h1>
+          <p class="tagline">Pick · Cheer · Track · Win</p>
+        </div>
+      </div>
+      <div class="leader-ticker" id="leaderTicker" hidden>
+        <span class="ticker-label">Current Leader</span>
+        <span class="ticker-value" id="leaderTickerValue">—</span>
+      </div>
+    </div>
+    <p class="last-updated" id="lastUpdated"></p>
+  </header>
+
+  <main class="container">
+    <p id="loadState" class="load-state">Loading the tournament…</p>
+
+    <!-- COMING UP — next 5 fixtures -->
+    <section class="card" id="nextMatchSection" hidden aria-labelledby="nextMatchHeading">
+      <h2 id="nextMatchHeading" class="section-title">Coming Up</h2>
+      <div class="fixtures" id="nextMatch"></div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section class="card" id="leaderboardSection" hidden aria-labelledby="leaderboardHeading">
+      <h2 id="leaderboardHeading" class="section-title">Live Leaderboard</h2>
+      <ol class="leaderboard" id="leaderboard"></ol>
+    </section>
+
+    <!-- MATCH CENTER -->
+    <section class="card" id="matchesSection" hidden aria-labelledby="matchesHeading">
+      <h2 id="matchesHeading" class="section-title">Match Center</h2>
+      <div class="tabs" id="stageTabs" role="tablist"></div>
+      <ul class="match-list" id="matchList"></ul>
+    </section>
+
+    <!-- PRIZES & RULES -->
+    <section class="card" id="prizesSection" hidden aria-labelledby="prizesHeading">
+      <button class="drawer-toggle" id="prizesToggle" aria-expanded="false" aria-controls="prizesBody">
+        <h2 id="prizesHeading" class="section-title">Prizes &amp; Rules</h2>
+        <span class="chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="drawer-body" id="prizesBody" hidden>
+        <div class="prizes" id="prizes"></div>
+        <div class="rules">
+          <h3>How points work</h3>
+          <ul>
+            <li><strong>Win</strong> — 3 pts &nbsp;·&nbsp; <strong>Draw</strong> — 1 pt &nbsp;·&nbsp; <strong>Goal</strong> — 1 pt each</li>
+            <li><strong>Progression</strong> (cumulative): R16 +3 · QF +5 · SF +7 · Final +10 · Champion +15</li>
+            <li>Your score = the combined points of your <strong>two</strong> teams. Highest total wins!</li>
+          </ul>
+          <p class="reminder">It's for fun — even if you don't know football, just pick 2 teams! ⚽</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>May the best team <em>(and person)</em> win! 🏆</p>
+  </footer>
+
+  <script src="app.js?v=4"></script>
+</body>
+</html>

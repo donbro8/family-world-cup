@@ -1,0 +1,45 @@
+name: Update World Cup scores
+
+on:
+  schedule:
+    # Every 10 minutes. GitHub may delay scheduled runs by 5–15 min under load.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {} # lets you trigger a refresh manually from the Actions tab
+
+# Allow the workflow to commit the refreshed data.json back to the repo.
+permissions:
+  contents: write
+
+# Don't pile up overlapping runs.
+concurrency:
+  group: update-scores
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest scores
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: node scripts/update-scores.mjs
+
+      - name: Commit changes (only if data.json changed)
+        run: |
+          if [[ -n "$(git status --porcelain data.json)" ]]; then
+            git config user.name "wc-scorebot"
+            git config user.email "actions@github.com"
+            git add data.json
+            git commit -m "chore: update scores [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

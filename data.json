@@ -1,0 +1,706 @@
+{
+  "lastUpdated": "2026-06-23T10:09:59.387Z",
+  "participants": {
+    "mom": {
+      "name": "Mom",
+      "teams": [
+        "Iran",
+        "Jordan"
+      ],
+      "face": "assets/faces/mom.png"
+    },
+    "dad": {
+      "name": "Dad",
+      "teams": [
+        "Egypt",
+        "Ivory Coast"
+      ],
+      "face": "assets/faces/dad.png"
+    },
+    "lee": {
+      "name": "Lee",
+      "teams": [
+        "Germany",
+        "Portugal"
+      ],
+      "face": "assets/faces/lee.png"
+    },
+    "maddie": {
+      "name": "Maddie",
+      "teams": [
+        "Belgium",
+        "Colombia"
+      ],
+      "face": "assets/faces/maddie.png"
+    },
+    "becca": {
+      "name": "Becca",
+      "teams": [
+        "South Africa",
+        "Australia"
+      ],
+      "face": "assets/faces/becca.png"
+    },
+    "donnie": {
+      "name": "Donnie",
+      "teams": [
+        "France",
+        "Spain"
+      ],
+      "face": "assets/faces/donnie.png"
+    },
+    "melissa": {
+      "name": "Melissa",
+      "teams": [
+        "England",
+        "Netherlands"
+      ],
+      "face": "assets/faces/melissa.png"
+    },
+    "geoff": {
+      "name": "Geoff",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ],
+      "face": "assets/faces/geoff.png"
+    },
+    "mercia": {
+      "name": "Mercia",
+      "teams": [
+        "Morocco",
+        "Croatia"
+      ],
+      "face": "assets/faces/mercia.png"
+    }
+  },
+  "teams": {
+    "Iran": {
+      "flag": "🇮🇷",
+      "progressionStage": "groups"
+    },
+    "Jordan": {
+      "flag": "🇯🇴",
+      "progressionStage": "groups"
+    },
+    "Egypt": {
+      "flag": "🇪🇬",
+      "progressionStage": "groups"
+    },
+    "Ivory Coast": {
+      "flag": "🇨🇮",
+      "progressionStage": "groups"
+    },
+    "Germany": {
+      "flag": "🇩🇪",
+      "progressionStage": "groups"
+    },
+    "Portugal": {
+      "flag": "🇵🇹",
+      "progressionStage": "groups"
+    },
+    "Belgium": {
+      "flag": "🇧🇪",
+      "progressionStage": "groups"
+    },
+    "Colombia": {
+      "flag": "🇨🇴",
+      "progressionStage": "groups"
+    },
+    "South Africa": {
+      "flag": "🇿🇦",
+      "progressionStage": "groups"
+    },
+    "Australia": {
+      "flag": "🇦🇺",
+      "progressionStage": "groups"
+    },
+    "France": {
+      "flag": "🇫🇷",
+      "progressionStage": "groups"
+    },
+    "Spain": {
+      "flag": "🇪🇸",
+      "progressionStage": "groups"
+    },
+    "England": {
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "progressionStage": "groups"
+    },
+    "Netherlands": {
+      "flag": "🇳🇱",
+      "progressionStage": "groups"
+    },
+    "Brazil": {
+      "flag": "🇧🇷",
+      "progressionStage": "groups"
+    },
+    "Argentina": {
+      "flag": "🇦🇷",
+      "progressionStage": "groups"
+    },
+    "Morocco": {
+      "flag": "🇲🇦",
+      "progressionStage": "groups"
+    },
+    "Croatia": {
+      "flag": "🇭🇷",
+      "progressionStage": "groups"
+    }
+  },
+  "weeks": [
+    {
+      "n": 1,
+      "label": "Group Stage — MD 1 & 2"
+    },
+    {
+      "n": 2,
+      "label": "Group Stage — MD 3"
+    },
+    {
+      "n": 3,
+      "label": "Round of 16"
+    },
+    {
+      "n": 4,
+      "label": "Quarter Finals"
+    },
+    {
+      "n": 5,
+      "label": "Semi Finals"
+    },
+    {
+      "n": 6,
+      "label": "3rd Place Play-off"
+    },
+    {
+      "n": 7,
+      "label": "Final"
+    }
+  ],
+  "prizes": [
+    {
+      "place": 1,
+      "icon": "🥇",
+      "reward": "Money + Wine + Box of Chocolates"
+    },
+    {
+      "place": 2,
+      "icon": "🥈",
+      "reward": "Wine + Box of Chocolates"
+    },
+    {
+      "place": 3,
+      "icon": "🥉",
+      "reward": "Box of Chocolates"
+    }
+  ],
+  "matches": [
+    {
+      "id": 537327,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-11T19:00:00Z",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "score1": 2,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537339,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-13T22:00:00Z",
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "score1": 1,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537346,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-14T04:00:00Z",
+      "team1": "Australia",
+      "team2": "Turkey",
+      "score1": 2,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537351,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-14T17:00:00Z",
+      "team1": "Germany",
+      "team2": "Curaçao",
+      "score1": 7,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537357,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-14T20:00:00Z",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "score1": 2,
+      "score2": 2,
+      "status": "completed"
+    },
+    {
+      "id": 537352,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-14T23:00:00Z",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "score1": 1,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537369,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-15T16:00:00Z",
+      "team1": "Spain",
+      "team2": "Cape Verde Islands",
+      "score1": 0,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537363,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-15T19:00:00Z",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "score1": 1,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537364,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-16T01:00:00Z",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "score1": 2,
+      "score2": 2,
+      "status": "completed"
+    },
+    {
+      "id": 537391,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-16T19:00:00Z",
+      "team1": "France",
+      "team2": "Senegal",
+      "score1": 3,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537397,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-17T01:00:00Z",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "score1": 3,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537398,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-17T04:00:00Z",
+      "team1": "Austria",
+      "team2": "Jordan",
+      "score1": 3,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537403,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-17T17:00:00Z",
+      "team1": "Portugal",
+      "team2": "Congo DR",
+      "score1": 1,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537409,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-17T20:00:00Z",
+      "team1": "England",
+      "team2": "Croatia",
+      "score1": 4,
+      "score2": 2,
+      "status": "completed"
+    },
+    {
+      "id": 537404,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-18T02:00:00Z",
+      "team1": "Uzbekistan",
+      "team2": "Colombia",
+      "score1": 1,
+      "score2": 3,
+      "status": "completed"
+    },
+    {
+      "id": 537329,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-18T16:00:00Z",
+      "team1": "Czechia",
+      "team2": "South Africa",
+      "score1": 1,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537348,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-19T19:00:00Z",
+      "team1": "United States",
+      "team2": "Australia",
+      "score1": 2,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537342,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-19T22:00:00Z",
+      "team1": "Scotland",
+      "team2": "Morocco",
+      "score1": 0,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537341,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-20T00:30:00Z",
+      "team1": "Brazil",
+      "team2": "Haiti",
+      "score1": 3,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537359,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-20T17:00:00Z",
+      "team1": "Netherlands",
+      "team2": "Sweden",
+      "score1": 5,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537353,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-20T20:00:00Z",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "score1": 2,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537371,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-21T16:00:00Z",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "score1": 4,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537365,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-21T19:00:00Z",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "score1": 0,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537366,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-22T01:00:00Z",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "score1": 1,
+      "score2": 3,
+      "status": "completed"
+    },
+    {
+      "id": 537399,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-22T17:00:00Z",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "score1": 2,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537393,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-22T21:00:00Z",
+      "team1": "France",
+      "team2": "Iraq",
+      "score1": 3,
+      "score2": 0,
+      "status": "completed"
+    },
+    {
+      "id": 537400,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-23T03:00:00Z",
+      "team1": "Jordan",
+      "team2": "Algeria",
+      "score1": 1,
+      "score2": 2,
+      "status": "completed"
+    },
+    {
+      "id": 537405,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-23T17:00:00Z",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537411,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-23T20:00:00Z",
+      "team1": "England",
+      "team2": "Ghana",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537412,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-23T23:00:00Z",
+      "team1": "Panama",
+      "team2": "Croatia",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537406,
+      "stage": "groups",
+      "week": 1,
+      "date": "2026-06-24T02:00:00Z",
+      "team1": "Colombia",
+      "team2": "Congo DR",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537344,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-24T22:00:00Z",
+      "team1": "Morocco",
+      "team2": "Haiti",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537343,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-24T22:00:00Z",
+      "team1": "Scotland",
+      "team2": "Brazil",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537332,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-25T01:00:00Z",
+      "team1": "South Africa",
+      "team2": "South Korea",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537355,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-25T20:00:00Z",
+      "team1": "Ecuador",
+      "team2": "Germany",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537356,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-25T20:00:00Z",
+      "team1": "Curaçao",
+      "team2": "Ivory Coast",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537361,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-25T23:00:00Z",
+      "team1": "Tunisia",
+      "team2": "Netherlands",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537350,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-26T02:00:00Z",
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537395,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-26T19:00:00Z",
+      "team1": "Norway",
+      "team2": "France",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537373,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T00:00:00Z",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537367,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T03:00:00Z",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537368,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T03:00:00Z",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537413,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T21:00:00Z",
+      "team1": "Panama",
+      "team2": "England",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537414,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T21:00:00Z",
+      "team1": "Croatia",
+      "team2": "Ghana",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537407,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-27T23:30:00Z",
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537401,
+      "stage": "groups",
+      "week": 2,
+      "date": "2026-06-28T02:00:00Z",
+      "team1": "Jordan",
+      "team2": "Argentina",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    }
+  ]
+}
