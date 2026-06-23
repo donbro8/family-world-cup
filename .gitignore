@@ -4,3 +4,6 @@
 image.png
 
 .DS_Store*
+# Local-only planning docs (kept off the public repo)
+figurine_prompts.md
+plan.md
