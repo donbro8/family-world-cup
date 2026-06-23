@@ -385,7 +385,7 @@ function openParticipant(key) {
   const content = $("modalContent");
   content.innerHTML = "";
 
-  const photo = makeAvatar(p, key, { leader: p.rank === 1, size: 132 });
+  const photo = makeAvatar(p, key, { leader: p.rank === 1 });
   photo.classList.add("profile-photo");
 
   const head = document.createElement("div");

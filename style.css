@@ -339,12 +339,14 @@ h1 .accent { color: var(--gold); }
 .modal.open .modal-backdrop { opacity: 1; }
 .modal-card {
   position: relative;
-  width: min(420px, 100%);
+  width: min(560px, 100%);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
   background: linear-gradient(160deg, var(--bg-card-2), var(--bg-card));
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 28px 24px 24px;
+  padding: 36px 32px 32px;
   text-align: center;
   transform: translateY(12px) scale(0.98);
   opacity: 0;
@@ -360,9 +362,12 @@ h1 .accent { color: var(--gold); }
 .modal-close:hover { color: var(--text); border-color: var(--border-strong); }
 
 .profile-photo {
-  margin: 0 auto 14px;
-  border-width: 3px;
-  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.4);
+  width: min(260px, 64vw);
+  height: min(260px, 64vw);
+  font-size: clamp(3rem, 18vw, 6rem);
+  margin: 0 auto 16px;
+  border-width: 4px;
+  box-shadow: 0 10px 30px oklch(0% 0 0 / 0.45);
 }
 .profile-rank { font-size: 1.8rem; line-height: 1; margin-bottom: 4px; }
 .profile-name { font-family: "Outfit", sans-serif; font-weight: 800; font-size: 1.5rem; }
