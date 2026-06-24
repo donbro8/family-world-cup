@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T01:11:56.063Z",
+  "lastUpdated": "2026-06-24T03:22:28.106Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -533,8 +533,8 @@
       "date": "2026-06-24T02:00:00Z",
       "team1": "Colombia",
       "team2": "Congo DR",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 0,
       "status": "upcoming"
     },
     {
