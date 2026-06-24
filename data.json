@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T23:19:18.157Z",
+  "lastUpdated": "2026-06-24T23:47:37.461Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -544,7 +544,7 @@
       "date": "2026-06-24T22:00:00Z",
       "team1": "Morocco",
       "team2": "Haiti",
-      "score1": 2,
+      "score1": 3,
       "score2": 2,
       "status": "live"
     },
@@ -556,7 +556,7 @@
       "team1": "Scotland",
       "team2": "Brazil",
       "score1": 0,
-      "score2": 2,
+      "score2": 3,
       "status": "live"
     },
     {
