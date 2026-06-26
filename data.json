@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:35:26.031Z",
+  "lastUpdated": "2026-06-26T20:17:36.936Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -622,8 +622,8 @@
       "team1": "Norway",
       "team2": "France",
       "score1": 1,
-      "score2": 2,
-      "status": "upcoming"
+      "score2": 3,
+      "status": "live"
     },
     {
       "id": 537373,
