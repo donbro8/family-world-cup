@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:34:19.481Z",
+  "lastUpdated": "2026-06-27T23:02:24.810Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -667,7 +667,7 @@
       "team2": "England",
       "score1": 0,
       "score2": 2,
-      "status": "live"
+      "status": "completed"
     },
     {
       "id": 537414,
@@ -676,8 +676,8 @@
       "date": "2026-06-27T21:00:00Z",
       "team1": "Croatia",
       "team2": "Ghana",
-      "score1": 1,
-      "score2": 0,
+      "score1": 2,
+      "score2": 1,
       "status": "live"
     },
     {
