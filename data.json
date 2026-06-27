@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T04:48:16.398Z",
+  "lastUpdated": "2026-06-27T06:07:42.196Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -643,9 +643,9 @@
       "date": "2026-06-27T03:00:00Z",
       "team1": "New Zealand",
       "team2": "Belgium",
-      "score1": 0,
-      "score2": 3,
-      "status": "live"
+      "score1": 1,
+      "score2": 5,
+      "status": "completed"
     },
     {
       "id": 537368,
@@ -656,7 +656,7 @@
       "team2": "Iran",
       "score1": 1,
       "score2": 1,
-      "status": "live"
+      "status": "completed"
     },
     {
       "id": 537413,
