@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T03:47:31.956Z",
+  "lastUpdated": "2026-06-28T05:20:04.400Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -700,7 +700,7 @@
       "team2": "Argentina",
       "score1": 1,
       "score2": 3,
-      "status": "live"
+      "status": "completed"
     }
   ]
 }
