@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T02:21:56.629Z",
+  "lastUpdated": "2026-06-28T03:47:31.956Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -698,8 +698,8 @@
       "date": "2026-06-28T02:00:00Z",
       "team1": "Jordan",
       "team2": "Argentina",
-      "score1": 0,
-      "score2": 0,
+      "score1": 1,
+      "score2": 3,
       "status": "live"
     }
   ]
