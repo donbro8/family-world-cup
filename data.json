@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T05:20:04.400Z",
+  "lastUpdated": "2026-06-30T06:29:03.938Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -133,7 +133,7 @@
     },
     "Brazil": {
       "flag": "🇧🇷",
-      "progressionStage": "groups"
+      "progressionStage": "r16"
     },
     "Argentina": {
       "flag": "🇦🇷",
@@ -141,7 +141,7 @@
     },
     "Morocco": {
       "flag": "🇲🇦",
-      "progressionStage": "groups"
+      "progressionStage": "r16"
     },
     "Croatia": {
       "flag": "🇭🇷",
@@ -701,6 +701,28 @@
       "score1": 1,
       "score2": 3,
       "status": "completed"
+    },
+    {
+      "id": 537376,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-04T17:00:00Z",
+      "team1": "Canada",
+      "team2": "Morocco",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537377,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-05T20:00:00Z",
+      "team1": "Brazil",
+      "team2": "TBD",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
     }
   ]
 }
