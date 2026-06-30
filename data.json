@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T06:29:03.938Z",
+  "lastUpdated": "2026-06-30T09:34:15.990Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -85,51 +85,51 @@
     },
     "Egypt": {
       "flag": "🇪🇬",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Ivory Coast": {
       "flag": "🇨🇮",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Germany": {
       "flag": "🇩🇪",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Portugal": {
       "flag": "🇵🇹",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Belgium": {
       "flag": "🇧🇪",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "South Africa": {
       "flag": "🇿🇦",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Australia": {
       "flag": "🇦🇺",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "France": {
       "flag": "🇫🇷",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Netherlands": {
       "flag": "🇳🇱",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Brazil": {
       "flag": "🇧🇷",
@@ -137,7 +137,7 @@
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     },
     "Morocco": {
       "flag": "🇲🇦",
@@ -145,7 +145,7 @@
     },
     "Croatia": {
       "flag": "🇭🇷",
-      "progressionStage": "groups"
+      "progressionStage": "r32"
     }
   },
   "weeks": [
@@ -701,6 +701,149 @@
       "score1": 1,
       "score2": 3,
       "status": "completed"
+    },
+    {
+      "id": 537417,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-28T19:00:00Z",
+      "team1": "South Africa",
+      "team2": "Canada",
+      "score1": 0,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537423,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-29T17:00:00Z",
+      "team1": "Brazil",
+      "team2": "Japan",
+      "score1": 2,
+      "score2": 1,
+      "status": "completed"
+    },
+    {
+      "id": 537415,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-29T20:30:00Z",
+      "team1": "Germany",
+      "team2": "Paraguay",
+      "score1": 4,
+      "score2": 5,
+      "status": "completed"
+    },
+    {
+      "id": 537418,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-30T01:00:00Z",
+      "team1": "Netherlands",
+      "team2": "Morocco",
+      "score1": 3,
+      "score2": 4,
+      "status": "completed"
+    },
+    {
+      "id": 537424,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-30T17:00:00Z",
+      "team1": "Ivory Coast",
+      "team2": "Norway",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537416,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-06-30T21:00:00Z",
+      "team1": "France",
+      "team2": "Sweden",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537426,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-01T16:00:00Z",
+      "team1": "England",
+      "team2": "Congo DR",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537422,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-01T20:00:00Z",
+      "team1": "Belgium",
+      "team2": "Senegal",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537420,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-02T19:00:00Z",
+      "team1": "Spain",
+      "team2": "Austria",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537419,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-02T23:00:00Z",
+      "team1": "Portugal",
+      "team2": "Croatia",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537428,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-03T18:00:00Z",
+      "team1": "Australia",
+      "team2": "Egypt",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537427,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-03T22:00:00Z",
+      "team1": "Argentina",
+      "team2": "Cape Verde Islands",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537430,
+      "stage": "r32",
+      "week": 3,
+      "date": "2026-07-04T01:30:00Z",
+      "team1": "Colombia",
+      "team2": "Ghana",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
     },
     {
       "id": 537376,

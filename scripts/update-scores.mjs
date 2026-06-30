@@ -22,15 +22,16 @@ const API_URL = `https://api.football-data.org/v4/competitions/${COMPETITION}/ma
 
 // ---- stage / week / status maps (football-data.org → our schema) ----
 const STAGE_MAP = {
-  GROUP_STAGE: "groups", LAST_16: "r16", QUARTER_FINALS: "qf",
+  GROUP_STAGE: "groups", LAST_32: "r32", LAST_16: "r16", QUARTER_FINALS: "qf",
   SEMI_FINALS: "sf", THIRD_PLACE: "third", FINAL: "final",
 };
-const STAGE_RANK = { groups: 0, r16: 1, qf: 2, sf: 3, third: 3, final: 4, winner: 5 };
-const RANK_STAGE = { 0: "groups", 1: "r16", 2: "qf", 3: "sf", 4: "final" };
+const STAGE_RANK = { groups: 0, r32: 1, r16: 2, qf: 3, sf: 4, third: 4, final: 5, winner: 6 };
+const RANK_STAGE = { 0: "groups", 1: "r32", 2: "r16", 3: "qf", 4: "sf", 5: "final" };
 
 function weekFor(stage, matchday) {
   switch (stage) {
     case "groups": return Number(matchday) >= 3 ? 2 : 1;
+    case "r32": return 3;
     case "r16": return 3;
     case "qf": return 4;
     case "sf": return 5;

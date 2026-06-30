@@ -6,15 +6,16 @@
 
 // ---- Scoring constants (mirror plan.md §4) ----
 const POINTS = { WIN: 3, DRAW: 1, GOAL: 1 };
-const STAGE_RANK = { groups: 0, r16: 1, qf: 2, third: 3, sf: 3, final: 4, winner: 5 };
+const STAGE_RANK = { groups: 0, r32: 1, r16: 2, qf: 3, third: 4, sf: 4, final: 5, winner: 6 };
 // Cumulative progression total for a team's furthest stage.
-const PROGRESSION_TOTAL = { groups: 0, r16: 3, qf: 8, sf: 15, final: 25, winner: 40 };
+// R32 (48-team format's first knockout) earns match points only — no progression bonus.
+const PROGRESSION_TOTAL = { groups: 0, r32: 0, r16: 3, qf: 8, sf: 15, final: 25, winner: 40 };
 
 const STAGE_LABEL = {
-  groups: "Group Stage", r16: "Round of 16", qf: "Quarter Finals",
+  groups: "Group Stage", r32: "Round of 32", r16: "Round of 16", qf: "Quarter Finals",
   sf: "Semi Finals", third: "3rd Place", final: "Final", winner: "Final",
 };
-const STAGE_ORDER = ["groups", "r16", "qf", "sf", "third", "final"];
+const STAGE_ORDER = ["groups", "r32", "r16", "qf", "sf", "third", "final"];
 
 const AVATAR_COLORS = [
   "oklch(72% 0.15 142)", "oklch(75% 0.14 85)", "oklch(70% 0.13 25)",
