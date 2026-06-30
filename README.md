@@ -23,6 +23,7 @@ and the person behind each team.
 | File | Purpose |
 | --- | --- |
 | `index.html` / `style.css` / `app.js` | The static site (no build step). |
+| `version.json` | Cache-bust build number (never cached). Bump on every layout/logic change. |
 | `data.json` | Single source of truth: players, teams, fixtures, prizes. |
 | `assets/faces/` | Player photos (optional — falls back to initials). |
 | `figurine_prompts.md` | Copy-pasteable 3D vinyl toy figurine prompts for each family member. |
@@ -38,6 +39,16 @@ and the person behind each team.
 5. (Optional) add photos to `assets/faces/`.
 
 That's it — the Action keeps `data.json` updated; the site reflects it on the next refresh.
+
+## Shipping a layout/code change
+
+GitHub Pages caches `index.html`/`app.js`/`style.css` for ~10 min, so visitors can briefly
+see a stale page. To force everyone onto the new version immediately, **bump `build` in
+`version.json`** (e.g. `7` → `8`) whenever you change `app.js`, `style.css`, or the page
+markup. `index.html` loads `version.json` uncached and pulls `app.js`/`style.css` at that
+build, so a stale cached `index.html` can never run mismatched code again. Keep the
+`FALLBACK` constant in `index.html` in sync as a safety default. `data.json` doesn't need a
+bump — it's always fetched fresh.
 
 ## Run locally
 ```bash

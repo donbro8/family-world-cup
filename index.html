@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" id="app-style" href="style.css?v=7" />
 </head>
 <body>
   <div class="pitch-lines" aria-hidden="true"></div>
@@ -86,6 +86,36 @@
     </div>
   </div>
 
-  <script src="app.js?v=6"></script>
+  <!-- Cache-bust bootstrap: version.json (never cached) is the single source of truth
+       for the current build. Loads app.js / style.css at that build, so a stale cached
+       index.html can never run mismatched code. To ship a change, bump "build" in
+       version.json (keep FALLBACK below in sync as a belt-and-braces default). -->
+  <script>
+    (function () {
+      var FALLBACK = "7"; // last-known build, used if version.json can't be reached
+      function load(build) {
+        build = String(build || FALLBACK);
+        var css = document.getElementById("app-style");
+        if (css) {
+          var wantCss = "style.css?v=" + build;
+          if (css.getAttribute("href") !== wantCss) css.setAttribute("href", wantCss);
+        }
+        var s = document.createElement("script");
+        s.src = "app.js?v=" + build;
+        s.onerror = function () {
+          if (build !== FALLBACK) {
+            var f = document.createElement("script");
+            f.src = "app.js?v=" + FALLBACK;
+            document.body.appendChild(f);
+          }
+        };
+        document.body.appendChild(s);
+      }
+      fetch("version.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (v) { load(v && v.build); })
+        .catch(function () { load(FALLBACK); });
+    })();
+  </script>
 </body>
 </html>
