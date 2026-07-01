@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:08:21.559Z",
+  "lastUpdated": "2026-07-01T23:17:01.415Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -786,9 +786,9 @@
       "date": "2026-07-01T20:00:00Z",
       "team1": "Belgium",
       "team2": "Senegal",
-      "score1": 2,
+      "score1": 3,
       "score2": 2,
-      "status": "live"
+      "status": "completed"
     },
     {
       "id": 537420,
