@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T19:49:58.261Z",
+  "lastUpdated": "2026-07-02T20:51:07.996Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -797,9 +797,9 @@
       "date": "2026-07-02T19:00:00Z",
       "team1": "Spain",
       "team2": "Austria",
-      "score1": 1,
+      "score1": 2,
       "score2": 0,
-      "status": "upcoming"
+      "status": "live"
     },
     {
       "id": 537419,
