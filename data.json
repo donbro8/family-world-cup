@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:17:01.415Z",
+  "lastUpdated": "2026-07-02T06:26:35.379Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -101,7 +101,7 @@
     },
     "Belgium": {
       "flag": "🇧🇪",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "Colombia": {
       "flag": "🇨🇴",
@@ -125,7 +125,7 @@
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "Netherlands": {
       "flag": "🇳🇱",
@@ -874,6 +874,28 @@
       "date": "2026-07-05T20:00:00Z",
       "team1": "Brazil",
       "team2": "Norway",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537378,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-06T00:00:00Z",
+      "team1": "Mexico",
+      "team2": "England",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537380,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-07T00:00:00Z",
+      "team1": "United States",
+      "team2": "Belgium",
       "score1": null,
       "score2": null,
       "status": "upcoming"
