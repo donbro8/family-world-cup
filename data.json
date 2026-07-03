@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:09:55.563Z",
+  "lastUpdated": "2026-07-03T04:57:08.650Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -809,8 +809,8 @@
       "team1": "Portugal",
       "team2": "Croatia",
       "score1": 2,
-      "score2": 2,
-      "status": "live"
+      "score2": 1,
+      "status": "completed"
     },
     {
       "id": 537428,
