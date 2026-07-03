@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:53:16.866Z",
+  "lastUpdated": "2026-07-03T21:05:56.246Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -819,9 +819,9 @@
       "date": "2026-07-03T18:00:00Z",
       "team1": "Australia",
       "team2": "Egypt",
-      "score1": 1,
-      "score2": 1,
-      "status": "live"
+      "score1": 3,
+      "score2": 5,
+      "status": "completed"
     },
     {
       "id": 537427,
