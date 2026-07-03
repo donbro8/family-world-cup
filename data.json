@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:14:38.470Z",
+  "lastUpdated": "2026-07-03T23:30:17.428Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -830,8 +830,8 @@
       "date": "2026-07-03T22:00:00Z",
       "team1": "Argentina",
       "team2": "Cape Verde Islands",
-      "score1": 0,
-      "score2": 0,
+      "score1": 1,
+      "score2": 1,
       "status": "live"
     },
     {
