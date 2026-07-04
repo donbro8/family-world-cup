@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T07:45:27.985Z",
+  "lastUpdated": "2026-07-04T17:43:50.722Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -852,9 +852,9 @@
       "date": "2026-07-04T17:00:00Z",
       "team1": "Canada",
       "team2": "Morocco",
-      "score1": null,
-      "score2": null,
-      "status": "upcoming"
+      "score1": 0,
+      "score2": 0,
+      "status": "live"
     },
     {
       "id": 537375,
