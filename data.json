@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T04:55:07.876Z",
+  "lastUpdated": "2026-07-04T07:45:27.985Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -85,7 +85,7 @@
     },
     "Egypt": {
       "flag": "🇪🇬",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "Ivory Coast": {
       "flag": "🇨🇮",
@@ -97,7 +97,7 @@
     },
     "Portugal": {
       "flag": "🇵🇹",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "Belgium": {
       "flag": "🇧🇪",
@@ -105,7 +105,7 @@
     },
     "Colombia": {
       "flag": "🇨🇴",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "South Africa": {
       "flag": "🇿🇦",
@@ -121,7 +121,7 @@
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -137,7 +137,7 @@
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "progressionStage": "r32"
+      "progressionStage": "r16"
     },
     "Morocco": {
       "flag": "🇲🇦",
@@ -890,12 +890,45 @@
       "status": "upcoming"
     },
     {
+      "id": 537379,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-06T19:00:00Z",
+      "team1": "Portugal",
+      "team2": "Spain",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
       "id": 537380,
       "stage": "r16",
       "week": 3,
       "date": "2026-07-07T00:00:00Z",
       "team1": "United States",
       "team2": "Belgium",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537381,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-07T16:00:00Z",
+      "team1": "Argentina",
+      "team2": "Egypt",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537382,
+      "stage": "r16",
+      "week": 3,
+      "date": "2026-07-07T20:00:00Z",
+      "team1": "Switzerland",
+      "team2": "Colombia",
       "score1": null,
       "score2": null,
       "status": "upcoming"
