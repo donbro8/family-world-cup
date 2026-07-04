@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T21:08:23.999Z",
+  "lastUpdated": "2026-07-04T23:13:38.478Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -864,8 +864,8 @@
       "team1": "Paraguay",
       "team2": "France",
       "score1": 0,
-      "score2": 0,
-      "status": "live"
+      "score2": 1,
+      "status": "completed"
     },
     {
       "id": 537377,
