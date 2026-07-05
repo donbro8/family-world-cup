@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T23:13:38.478Z",
+  "lastUpdated": "2026-07-05T07:46:33.174Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -117,7 +117,7 @@
     },
     "France": {
       "flag": "🇫🇷",
-      "progressionStage": "r16"
+      "progressionStage": "qf"
     },
     "Spain": {
       "flag": "🇪🇸",
@@ -141,7 +141,7 @@
     },
     "Morocco": {
       "flag": "🇲🇦",
-      "progressionStage": "r16"
+      "progressionStage": "qf"
     },
     "Croatia": {
       "flag": "🇭🇷",
@@ -929,6 +929,17 @@
       "date": "2026-07-07T20:00:00Z",
       "team1": "Switzerland",
       "team2": "Colombia",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537383,
+      "stage": "qf",
+      "week": 4,
+      "date": "2026-07-09T20:00:00Z",
+      "team1": "France",
+      "team2": "Morocco",
       "score1": null,
       "score2": null,
       "status": "upcoming"
