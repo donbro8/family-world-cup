@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T01:26:58.561Z",
+  "lastUpdated": "2026-07-07T05:42:33.095Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -908,8 +908,8 @@
       "team1": "United States",
       "team2": "Belgium",
       "score1": 1,
-      "score2": 3,
-      "status": "live"
+      "score2": 4,
+      "status": "completed"
     },
     {
       "id": 537381,
