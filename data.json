@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T05:42:33.095Z",
+  "lastUpdated": "2026-07-07T08:55:53.384Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -101,7 +101,7 @@
     },
     "Belgium": {
       "flag": "🇧🇪",
-      "progressionStage": "r16"
+      "progressionStage": "qf"
     },
     "Colombia": {
       "flag": "🇨🇴",
@@ -121,7 +121,7 @@
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "r16"
+      "progressionStage": "qf"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -940,6 +940,17 @@
       "date": "2026-07-09T20:00:00Z",
       "team1": "France",
       "team2": "Morocco",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537384,
+      "stage": "qf",
+      "week": 4,
+      "date": "2026-07-10T19:00:00Z",
+      "team1": "Spain",
+      "team2": "Belgium",
       "score1": null,
       "score2": null,
       "status": "upcoming"
