@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T22:23:09.282Z",
+  "lastUpdated": "2026-07-10T08:44:26.170Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -117,7 +117,7 @@
     },
     "France": {
       "flag": "🇫🇷",
-      "progressionStage": "qf"
+      "progressionStage": "sf"
     },
     "Spain": {
       "flag": "🇪🇸",
@@ -973,6 +973,17 @@
       "date": "2026-07-12T01:00:00Z",
       "team1": "Argentina",
       "team2": "Switzerland",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537387,
+      "stage": "sf",
+      "week": 5,
+      "date": "2026-07-14T19:00:00Z",
+      "team1": "France",
+      "team2": "TBD",
       "score1": null,
       "score2": null,
       "status": "upcoming"
