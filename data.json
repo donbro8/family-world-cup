@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T22:02:11.597Z",
+  "lastUpdated": "2026-07-11T08:11:00.065Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -121,7 +121,7 @@
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "qf"
+      "progressionStage": "sf"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -983,7 +983,7 @@
       "week": 5,
       "date": "2026-07-14T19:00:00Z",
       "team1": "France",
-      "team2": "TBD",
+      "team2": "Spain",
       "score1": null,
       "score2": null,
       "status": "upcoming"
