@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T21:34:15.365Z",
+  "lastUpdated": "2026-07-15T06:27:17.187Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -121,7 +121,7 @@
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "sf"
+      "progressionStage": "final"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -995,6 +995,28 @@
       "date": "2026-07-15T19:00:00Z",
       "team1": "England",
       "team2": "Argentina",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537389,
+      "stage": "third",
+      "week": 6,
+      "date": "2026-07-18T21:00:00Z",
+      "team1": "France",
+      "team2": "TBD",
+      "score1": null,
+      "score2": null,
+      "status": "upcoming"
+    },
+    {
+      "id": 537390,
+      "stage": "final",
+      "week": 7,
+      "date": "2026-07-19T19:00:00Z",
+      "team1": "Spain",
+      "team2": "TBD",
       "score1": null,
       "score2": null,
       "status": "upcoming"
