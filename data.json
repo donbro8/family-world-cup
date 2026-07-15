@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T20:45:03.264Z",
+  "lastUpdated": "2026-07-15T21:41:49.985Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -996,8 +996,8 @@
       "team1": "England",
       "team2": "Argentina",
       "score1": 1,
-      "score2": 0,
-      "status": "live"
+      "score2": 2,
+      "status": "completed"
     },
     {
       "id": 537389,
