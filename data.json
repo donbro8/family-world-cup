@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T21:41:49.985Z",
+  "lastUpdated": "2026-07-16T07:02:39.106Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -137,7 +137,7 @@
     },
     "Argentina": {
       "flag": "🇦🇷",
-      "progressionStage": "sf"
+      "progressionStage": "final"
     },
     "Morocco": {
       "flag": "🇲🇦",
@@ -1005,7 +1005,7 @@
       "week": 6,
       "date": "2026-07-18T21:00:00Z",
       "team1": "France",
-      "team2": "TBD",
+      "team2": "England",
       "score1": null,
       "score2": null,
       "status": "upcoming"
@@ -1016,7 +1016,7 @@
       "week": 7,
       "date": "2026-07-19T19:00:00Z",
       "team1": "Spain",
-      "team2": "TBD",
+      "team2": "Argentina",
       "score1": null,
       "score2": null,
       "status": "upcoming"
