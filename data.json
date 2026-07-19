@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T21:58:29.587Z",
+  "lastUpdated": "2026-07-19T22:59:47.467Z",
   "participants": {
     "mom": {
       "name": "Mom",
@@ -121,7 +121,7 @@
     },
     "Spain": {
       "flag": "🇪🇸",
-      "progressionStage": "final"
+      "progressionStage": "winner"
     },
     "England": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -1019,7 +1019,7 @@
       "team2": "Argentina",
       "score1": 1,
       "score2": 0,
-      "status": "upcoming"
+      "status": "completed"
     }
   ]
 }
